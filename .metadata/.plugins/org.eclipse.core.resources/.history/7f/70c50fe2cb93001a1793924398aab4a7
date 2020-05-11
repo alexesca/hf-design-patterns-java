@@ -1,0 +1,23 @@
+package strategy;
+
+public class Duck {
+ FlyBehaviour flyBehaviour;
+ QuackBehaviour quackBehaviour;
+ 
+ private void performQuack() {
+	 quackBehaviour.quack();
+ }
+ 
+ private void swim() {
+	 
+ }
+ 
+ private void display() {
+	 
+ }
+ 
+ 
+ private void performDisplay() {
+	 
+ }
+}
