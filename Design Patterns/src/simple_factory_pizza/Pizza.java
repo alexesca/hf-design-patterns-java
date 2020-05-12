@@ -8,27 +8,34 @@ abstract public class Pizza {
 	String name;
 	String dough;
 	String sauce;
-	ArrayList toppings = new ArrayList();
+	ArrayList<String> toppings = new ArrayList();
+	
+	public void prepare() {
+		System.out.println("Preparing " + name);
+		System.out.println("Tossing dough " + name);
+		System.out.println("Adding sauce " + name);
+		System.out.println("Adding toppings " + name);
+		for(String topping:toppings) {
+			System.out.println(" " + topping);
+		}
+	}
 
 	public String getName() {
 		return name;
 	}
 
-	public void prepare() {
-		System.out.println("Preparing " + name);
-	}
-
 	public void bake() {
-		System.out.println("Baking " + name);
+		System.out.println("Bake for 25 minutes at 350");
 	}
 
-	public void cut() {
-		System.out.println("Cutting " + name);
+	void cut() {
+		System.out.println("Cutting the pizza into diagonal slices");
 	}
 
 	public void box() {
-		System.out.println("Boxing " + name);
+		System.out.println("Place pizza in official PizzaStore box");
 	}
+	
 
 	public String toString() {
 		// code to display pizza name and ingredients
