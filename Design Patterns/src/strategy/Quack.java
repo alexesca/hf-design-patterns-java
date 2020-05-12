@@ -1,6 +1,6 @@
 package strategy;
 
-public class Quack implements QuackBehaviour {
+public class Quack implements QuackBehavior {
 	
 	@Override
 	public void quack() {

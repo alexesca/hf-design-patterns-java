@@ -1,14 +1,14 @@
 package strategy;
 
-public class DuckCall implements QuackBehaviour {
+public class DuckCall implements QuackBehavior {
 	
-	private QuackBehaviour quackBehaviour = new MuteQuack();
+	private QuackBehavior quackBehavior = new MuteQuack();
 	
-	public void setQuackBehaviour(QuackBehaviour qb) {
-		quackBehaviour = qb;
+	public void setQuackBehaviour(QuackBehavior qb) {
+		quackBehavior = qb;
 	}
 	@Override 
 	public void  quack() {
-		quackBehaviour.quack();
+		quackBehavior.quack();
 	}
 }

@@ -1,3 +1,24 @@
 1589230560248	Rename type 'FkyWithWings'
 1589233589065	Delete element
 1589233646930	Rename resource 'README.MD'
+1589234001034	Copy package
+1589234012941	Delete elements
+1589234065536	Delete element
+1589234459560	Rename type 'WeaponBehaviour'
+1589234474781	Rename type 'FlyBehaviour'
+1589234496792	Rename field 'flyBehaviour'
+1589234525689	Rename field 'quackBehaviour'
+1589234548243	Rename field 'quackBehaviour'
+1589234572346	Rename method 'setFlyBehaviour'
+1589234580500	Rename method 'setQuackBehaviour'
+1589234594378	Rename type 'QuackBehaviour'
+1589234719288	Delete element
+1589234856041	Move compilation unit
+1589234862339	Move compilation unit
+1589234867268	Move compilation unit
+1589239895783	Move compilation units
+1589239927500	Delete element
+1589240488581	Rename type 'CurrentConditionDisplay'
+1589246608334	Delete element
+1589246630682	Delete element
+1589283401173	Move compilation unit

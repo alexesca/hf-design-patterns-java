@@ -1,26 +1,26 @@
 package strategy;
 
 public abstract class Duck {
- FlyBehaviour flyBehaviour;
- QuackBehaviour quackBehaviour;
+ FlyBehavior flyBehavior;
+ QuackBehavior quackBehavior;
  
- public void setFlyBehaviour(FlyBehaviour fb) {
-	 flyBehaviour = fb;
+ public void setFlyBehavior(FlyBehavior fb) {
+	 flyBehavior = fb;
  }
  
  
- public void setQuackBehaviour(QuackBehaviour qb) {
-	 quackBehaviour = qb;
+ public void setQuackBehavior(QuackBehavior qb) {
+	 quackBehavior = qb;
  }
  
  public abstract void display();
  
  public void performFly() {
-	 flyBehaviour.fly();
+	 flyBehavior.fly();
  }
  
  public void performQuack() {
-	 quackBehaviour.quack();
+	 quackBehavior.quack();
  }
  
  public void swim() {

@@ -1,6 +1,6 @@
 package strategy;
 
-public class Squeak implements QuackBehaviour{
+public class Squeak implements QuackBehavior{
 	@Override
 	public void quack() {
 		System.out.println("Quack that squeaks.");
