@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="strategy_game.Queen"/>
+    <fullyQualifiedTypeName name="strategy_game.Character"/>
+    <fullyQualifiedTypeName name="strategy_game.BowAndArrowBehavior"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="observer_weather_data.WeatherData"/>
+    <fullyQualifiedTypeName name="observer_weather_data.CurrentConditionsDisplay"/>
+    <fullyQualifiedTypeName name="observer_weather_data.ForecastDisplay"/>
+    <fullyQualifiedTypeName name="observer_weather_data.StatisticsDisplay"/>
+    <fullyQualifiedTypeName name="observer_weather_data.HeatIndexDisplay"/>
+    <fullyQualifiedTypeName name="decorator.Beverage"/>
+    <fullyQualifiedTypeName name="decorator.Espresso"/>
+    <fullyQualifiedTypeName name="decorator.DarkRoast"/>
+    <fullyQualifiedTypeName name="decorator.Mocha"/>
+    <fullyQualifiedTypeName name="decorator.Whip"/>
+    <fullyQualifiedTypeName name="decorator.HouseBlend"/>
+    <fullyQualifiedTypeName name="decorator.Soy"/>
+    <fullyQualifiedTypeName name="simple_factory_pizza.NYPizzaStore"/>
+    <fullyQualifiedTypeName name="simple_factory_pizza.PizzaStore"/>
+    <fullyQualifiedTypeName name="simple_factory_pizza.Pizza"/>
+    <fullyQualifiedTypeName name="simple_factory_pizza.ChicagoPizzaStore"/>
+</qualifiedTypeNameHistroy>
