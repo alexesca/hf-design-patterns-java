@@ -1,0 +1,11 @@
+package observer_pattern;
+
+public class WeatherData implements Subject {
+	
+	private Observer[] observers;
+	
+	public void registerObserver() {};
+	public void removeObserver() {};
+	public void notifyObservers() {};
+
+}

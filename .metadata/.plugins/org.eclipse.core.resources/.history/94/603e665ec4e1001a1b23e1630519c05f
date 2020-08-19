@@ -1,0 +1,14 @@
+package observer_pattern;
+
+import java.util.*;
+
+public class WeatherData implements Subject {
+	
+	private List<Observer> observers = new ArrayList<Observer>();
+	
+	public void registerObserver(Observer observer) {
+		this.observers.add(observer);
+	};
+	public void removeObserver() {};
+	public void notifyObservers() {}
+}

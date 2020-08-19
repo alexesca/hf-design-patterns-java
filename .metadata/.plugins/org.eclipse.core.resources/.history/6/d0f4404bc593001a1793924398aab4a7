@@ -1,6 +1,0 @@
-
-public class Init {
-	public void main(String string[]) {
-		System.out.print("Hello world");
-	}
-}
